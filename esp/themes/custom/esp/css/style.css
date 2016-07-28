@@ -1,0 +1,385 @@
+.header.lrg {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/Webheadedit-noufo.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 125%;
+}
+
+.ufo {
+  position: absolute;
+  width: 15%;
+  right: 15%;
+  -webkit-animation: ufoWobble 10s linear infinite;
+  -moz-animation: ufoWobble 10s linear infinite;
+  animation: ufoWobble 10s linear infinite;
+}
+
+.ufo img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 30%;
+  -webkit-animation: flicker 20s linear infinite;
+  -moz-animation: flicker 20s linear infinite;
+  animation: flicker 20s linear infinite;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+
+.logo h1 {
+  font-size: 0;
+  opacity: 0;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+@-webkit-keyframes flicker {
+  0% {
+    opacity: .4;
+  }
+  5% {
+    opacity: .6;
+  }
+  6% {
+    opacity: 1;
+  }
+  11% {
+    opacity: .7;
+  }
+  11.25% {
+    opacity: .6;
+  }
+  11.5% {
+    opacity: .8;
+  }
+  18% {
+    opacity: 1;
+  }
+  18.5% {
+    opacity: .9;
+  }
+  22% {
+    opacity: 1;
+  }
+  38.5% {
+    opacity: 1;
+  }
+  39% {
+    opacity: .8;
+  }
+  42% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.5% {
+    opacity: .7;
+  }
+  62% {
+    opacity: .8;
+  }
+  63% {
+    opacity: .8;
+  }
+  63.25% {
+    opacity: .9;
+  }
+  65% {
+    opacity: 1;
+  }
+  73% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .8;
+  }
+  79% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flicker {
+  0% {
+    opacity: .4;
+  }
+  5% {
+    opacity: .6;
+  }
+  6% {
+    opacity: 1;
+  }
+  11% {
+    opacity: .7;
+  }
+  11.25% {
+    opacity: .6;
+  }
+  11.5% {
+    opacity: .8;
+  }
+  18% {
+    opacity: 1;
+  }
+  18.5% {
+    opacity: .9;
+  }
+  22% {
+    opacity: 1;
+  }
+  38.5% {
+    opacity: 1;
+  }
+  39% {
+    opacity: .8;
+  }
+  42% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.5% {
+    opacity: .7;
+  }
+  62% {
+    opacity: .8;
+  }
+  63% {
+    opacity: .8;
+  }
+  63.25% {
+    opacity: .9;
+  }
+  65% {
+    opacity: 1;
+  }
+  73% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .8;
+  }
+  79% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: .4;
+  }
+  5% {
+    opacity: .6;
+  }
+  6% {
+    opacity: 1;
+  }
+  11% {
+    opacity: .7;
+  }
+  11.25% {
+    opacity: .6;
+  }
+  11.5% {
+    opacity: .8;
+  }
+  18% {
+    opacity: 1;
+  }
+  18.5% {
+    opacity: .9;
+  }
+  22% {
+    opacity: 1;
+  }
+  38.5% {
+    opacity: 1;
+  }
+  39% {
+    opacity: .8;
+  }
+  42% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.5% {
+    opacity: .7;
+  }
+  62% {
+    opacity: .8;
+  }
+  63% {
+    opacity: .8;
+  }
+  63.25% {
+    opacity: .9;
+  }
+  65% {
+    opacity: 1;
+  }
+  73% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .8;
+  }
+  79% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ufoWobble {
+  0% {
+    opacity: 0.7;
+    top: 35%;
+    right: 15%;
+  }
+  20% {
+    opacity: 0.7;
+    top: 40%;
+    right: 15%;
+  }
+  40% {
+    opacity: 0.6;
+    top: 43%;
+    right: 13%;
+  }
+  60% {
+    opacity: 0.7;
+    top: 45%;
+    right: 13%;
+  }
+  80% {
+    opacity: 0.7;
+    top: 40%;
+    right: 15%;
+  }
+  100% {
+    opacity: 0.6;
+    top: 35%;
+  }
+}
+
+@-moz-keyframes ufoWobble {
+  0% {
+    opacity: 0.7;
+    top: 35%;
+    right: 15%;
+  }
+  20% {
+    opacity: 0.7;
+    top: 40%;
+    right: 15%;
+  }
+  40% {
+    opacity: 0.6;
+    top: 43%;
+    right: 13%;
+  }
+  60% {
+    opacity: 0.7;
+    top: 45%;
+    right: 13%;
+  }
+  80% {
+    opacity: 0.7;
+    top: 40%;
+    right: 15%;
+  }
+  100% {
+    opacity: 0.6;
+    top: 35%;
+  }
+}
+
+@keyframes ufoWobble {
+  0% {
+    opacity: 0.7;
+    top: 35%;
+    right: 15%;
+  }
+  20% {
+    opacity: 0.7;
+    top: 40%;
+    right: 15%;
+  }
+  40% {
+    opacity: 0.6;
+    top: 43%;
+    right: 13%;
+  }
+  60% {
+    opacity: 0.7;
+    top: 45%;
+    right: 13%;
+  }
+  80% {
+    opacity: 0.7;
+    top: 40%;
+    right: 15%;
+  }
+  100% {
+    opacity: 0.6;
+    top: 35%;
+  }
+}
+
+ul.menu {
+  text-align: inherit;
+}
+
+ul.menu a.is-active {
+  color: inherit;
+}
+
+.menu--main {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+}
+
+.toolbar-fixed .menu--main {
+  top: 39px;
+}
+
+.toolbar-horizontal.toolbar-tray-open .menu--main {
+  top: 79px;
+}
+
+.menu--main li {
+  display: inline-block;
+  color: #f5f5f5;
+}
+
+.menu--main li a {
+  color: #f5f5f5;
+}
+
+body {
+  background-image: url("../img/bgtile.jpg");
+  background-size: 50%;
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+base:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: { }
+      css/font-awesome/css/font-awesome.min.css: { }
+  js:
+    js/flowtype.js: { }
+    js/scroll-to-fixed.js: { }
+    js/snap.svg-min.js: { }
+    js/script.js: { }
+  dependancies:
+    - core/jquery
+    - core/jquery.ui

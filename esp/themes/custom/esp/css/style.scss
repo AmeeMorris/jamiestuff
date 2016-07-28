@@ -1,0 +1,9 @@
+@import "bourbon";
+@import 'scss/background';
+@import "scss/nav";
+
+body {
+  background-image: url('../img/bgtile.jpg');
+  background-size: 50%;
+  margin: 0;
+}
